@@ -20,7 +20,7 @@ http.createServer(async (req, res) => {
 
     if (req.url.indexOf('teste') != -1) {
       console.log('rodando regexLento()');
-      regexLento();
+      await regexLento();
     }
 
     res.write('sucesso');
