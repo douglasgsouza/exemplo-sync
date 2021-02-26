@@ -4,8 +4,12 @@ Um método mesmo sendo async
 se internamente faz um processamento sincrono lento (ex, regex, readFileSync)
 poderá bloquear o event-loop do node
 
+Para testar:
+
 `node server.js`
+
 No browser:
+
 1 - Acesse http://localhost:8070
 este carregará rapidamente
 
